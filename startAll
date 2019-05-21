@@ -1,0 +1,28 @@
+set wait  = 100
+set host  = "localhost"
+set team  = "Mars" 
+
+sleep 1
+./Agent 15.0  localhost ok Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./Agent 15.0  localhost No Mars &
+sleep 1
+./CoachAgent 15.0 localhost No Mars &

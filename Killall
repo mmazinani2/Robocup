@@ -1,0 +1,14 @@
+echo "*************************************************************"
+echo "*************************************************************"
+echo "***	Team name :	Mars				                    ***"
+echo "*** 	Programer :		   			                        ***"
+echo "***			Mohammad Mazinani		                    ***"
+echo "***			Mohammad Ali Kamkar 	                    ***"
+echo "***			Mehdi Torshani                     		    ***"
+echo "***	copright :	2010-2011	  		                    ***"
+echo "*************************************************************"
+echo "*************************************************************"
+
+killall Agent
+sleep 1
+killall CoachAgent
